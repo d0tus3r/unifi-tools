@@ -2,8 +2,14 @@ This simple script downgrades unifi uaps to counter a bug in the latest firmware
 
 usage:
 
-python3 downgrade.py ipaddress sshpassword
+python3 downgrade.py sshpassword
 
+create a file in downgrade directory called iplist.txt
+```
+192.168.1.2
+192.168.1.3
+192.168.1.4
+```
 
 Potential TODO:
 
